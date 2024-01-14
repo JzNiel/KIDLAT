@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#images-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#guess-input {
+    margin-bottom: 10px;
+}
+
+#result {
+    font-weight: bold;
+    color: green;
+}
